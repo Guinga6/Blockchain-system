@@ -1,6 +1,6 @@
 # Blockchain Example
 
-Simple educational implementation of a blockchain with a small Flask REST API.
+Simple implementation of a blockchain with a small Flask REST API.
 
 This project contains two runnable nodes:
 - `blockchain.py` (default node, runs on port 5000)
