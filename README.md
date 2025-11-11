@@ -91,16 +91,3 @@ Resolve consensus (ask nodes to reconcile to the longest valid chain):
 ```powershell
 curl http://localhost:5000/nodes/resolve
 ```
-
-## Notes
-- The code is educational and not production-ready.
-- Difficulty is fixed via the `MINING_DIFFICULTY` constant (4 leading zeros).
-- If you need a different port, open the file and change the `app.run(..., port=...)` value.
-
-## Help / Next steps
-- I can add a `requirements.txt` if you'd like.
-- I can also add a short script to run both nodes with different ports automatically.
-
----
-
-If you'd like this README modified (language, more details, or a CONTRIBUTING section), tell me what to add.
